@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Upload, FileText, Share, ArrowLeft } from 'lucide-react';
@@ -16,7 +15,7 @@ const FacultyUploader = () => {
   const [isSharing, setIsSharing] = useState(false);
   const { toast } = useToast();
 
-  const classrooms = ['101', '102', '103', '104', '105', '201', '202', '203', '204', '205'];
+  const classrooms = ['6201', '6202', '6203', '7001', '7002', '150lab'];
 
   const handleFileSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];

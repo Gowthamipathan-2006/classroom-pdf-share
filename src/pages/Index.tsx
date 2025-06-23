@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Upload, Monitor, FileText, Share } from 'lucide-react';
@@ -8,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 
 const Index = () => {
   const [selectedRoom, setSelectedRoom] = React.useState<string>('');
-  const classrooms = ['101', '102', '103', '104', '105', '201', '202', '203', '204', '205'];
+  const classrooms = ['6201', '6202', '6203', '7001', '7002', '150lab'];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
